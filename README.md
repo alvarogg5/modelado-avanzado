@@ -22,6 +22,9 @@ El algoritmo ASH implementado sigue los siguientes pasos, basándose en la teor�
 ## Visualización de Resultados
 El script produce una visualización gráfica que muestra la densidad estimada de los costes salariales, utilizando diferentes parámetros para el ancho de bin y el número de desplazamientos. Esto permite comparar el impacto de estos parámetros en la estimación de la densidad.
 
+![ASH](ash.png)
+
+
 # 2. Clasificador de Sectores Económicos basado en Árbol de Decisión
 
 ## Introducción
@@ -50,6 +53,8 @@ Se incluye una visualización de la curva de aprendizaje que muestra cómo el mo
 
 ### Árbol de Decisión Exportado
 El modelo entrenado se exporta y visualiza como un árbol de decisión utilizando Graphviz, lo que facilita la interpretación y comprensión del proceso de decisión.
+[Ver Árbol de Decisión PDF](decision_tree21.pdf)
+
 
 ## Requisitos
 El script requiere las siguientes bibliotecas de Python:
