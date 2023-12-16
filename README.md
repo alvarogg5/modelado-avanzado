@@ -11,7 +11,7 @@ Este programa de Python se desarrolló para aplicar y visualizar una técnica av
 La metodología ASH es una mejora del histograma tradicional que proporciona una estimación más suave de la densidad de probabilidad. Consiste en promediar múltiples histogramas desplazados para obtener una función de densidad estimada.
 
 ### Método ASH
-El algoritmo ASH implementado sigue los siguientes pasos, basándose en la teoría estadística proporcionada por la Universidad Europea:
+El algoritmo ASH implementado sigue los siguientes pasos, basándose en la teoría estadística :
 
 1. Creación de una malla en el rango de los datos, definida por un ancho de bin `δ` y un número `m` de desplazamientos.
 2. Conteo de observaciones en cada bin para crear histogramas superpuestos.
